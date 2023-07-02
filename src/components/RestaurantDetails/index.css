@@ -1,0 +1,159 @@
+.restaurant-banner-container {
+  background-image: url('https://res.cloudinary.com/dyumtyemc/image/upload/v1687703851/Rectangle_1399_wcobj0.png');
+  height: 344px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 40px;
+}
+.specific-restaurant-container {
+  width: 794.9998779296875px;
+  height: 280px;
+  border-radius: 8px;
+  display: flex;
+}
+.restaurant-image {
+  width: 445px;
+  height: 280px;
+  border-radius: 8px;
+  margin-right: 40px;
+}
+.restaurant-name {
+  font-family: Roboto;
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 48px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: left;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+.restaurant-cuisine {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #ffffff;
+  margin-bottom: 5px;
+}
+.restaurant-location {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+.rating-container {
+  display: flex;
+  align-items: center;
+}
+.restaurant-rating {
+  font-family: DM Sans;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #ffffff;
+  margin-left: 3px;
+}
+.restaurant-reviews-count {
+  font-family: DM Sans;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #e2e8f0;
+}
+.rating-cost-container {
+  display: flex;
+}
+.cost-container {
+  display: flex;
+  font-family: DM Sans;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #ffffff;
+  margin-left: 30px;
+}
+.cost-for-two {
+  font-family: DM Sans;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #e2e8f0;
+  margin-left: 30px;
+}
+.rating-main-container {
+  border-right: 1px solid #e2e8f0;
+  padding-right: 30px;
+}
+.details-container {
+  align-self: center;
+}
+.food-items-container {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding: 30px;
+  padding-left: 70px;
+  justify-content: flex-start;
+}
+.loader-container {
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+  .restaurant-banner-container {
+    height: 188px;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+  }
+  .specific-restaurant-container {
+    width: 360px;
+    height: 188px;
+    padding: 0px;
+  }
+  .restaurant-image {
+    width: 200px;
+    height: 190px;
+    margin-top: -5px;
+    margin-left: -80px;
+    border-radius: 133.9812469482422px;
+  }
+  .restaurant-name {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.20000000298023224px;
+  }
+  .restaurant-cuisine {
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0px;
+  }
+
+  .restaurant-location {
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0px;
+    text-align: left;
+  }
+  .specific-restaurant-container {
+    width: 100%;
+  }
+  .food-items-container {
+    padding-left: 15px;
+  }
+}
